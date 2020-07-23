@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>video to string</title>
+    <link href="./style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <video src="./badapple.mp4" controls id="badapple"></video>
+    <script src="./videoToString.js"></script>
+    <script>
+        window.onload = function () {
+            var videoToString = new VideoToString("badapple");
+        }
+    </script>
+</body>
+
+</html>
